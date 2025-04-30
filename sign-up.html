@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Movie-Booking: Sign-up</title>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            background-image: url(./pictures/signupposter.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin-top: 300px;
+            margin-bottom: 300px;
+        }
+
+        .form-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+            width: 400px;
+        }
+
+        .form-items {
+            width: 100%;
+            padding: 10px;
+            margin-top: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+
+        .form-items:focus {
+            border-color: #007bff;
+            outline: none;
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+        }
+
+        .form-title {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 24px;
+            color: #333;
+        }
+
+        .form-button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 15px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .reset{
+            width: 100%;
+            padding: 10px;
+            margin-top: 15px;
+            border: 1px solid black;
+            border-radius: 5px;
+            color: black;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .form-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="form-container">   
+
+        <div class="form-title">Sign Up</div>
+
+        <input type="text" placeholder="First name" class="form-items">
+        <input type="text" placeholder="Last name" class="form-items">
+        <input type="email" placeholder="Email id" class="form-items">
+        <input type="username" placeholder="User Name" class="form-items">
+        <input type="password" placeholder="Password" class="form-items">
+        <br><br>
+
+        <label for="profile-image">Profile Image:</label>
+        <input type="file" id="profile-image" name="profile-image">
+
+        <p>Date Of Birth</p>
+        <input type="date" class="form-items">
+        <br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="10" max="99"> 
+        <br>
+
+        <p>Gender:</p>
+        <input type="radio" id="male" name="gen" value="Male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gen" value="Female">
+        <label for="female">Female</label><br>  
+        <input type="radio" id="other" name="gen" value="other">
+        <label for="other">Others</label><br><br>
+
+        <label for="Phone number">Phone Number</label><br>
+        <textarea phno=" " id=" "></textarea><br><br>
+
+        <label for="favorite-color">Favorite Color:</label>
+        <input type="color" id="favorite-color" name="favorite-color">
+        <br><br>
+
+        <label for="state">Select state of residence: </label>
+        <select name="state" id="state">
+            <option value="Andhra Pradesh">Andhra Pradesh</option>
+            <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+            <option value="Assam">Assam</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Goa" selected>Goa</option>
+            <option value="Gujarat">Gujarat</option>
+            <option value="Jammu">Jammu</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Rajasthan">Rajasthan</option>
+            <option value="Tamil Nadu">Tamil Nadu</option>
+            <option value="Uttarakhand">Uttarakhand</option>
+        </select>
+        <br><br>
+
+        <p>Select any 3 movie genres:</p>
+        <input type="checkbox" id="Horror" name="genre" value="horror">
+        <label for="Horror">Horror</label><br>
+        <input type="checkbox" id="Thriller" name="genre" value="thriller">
+        <label for="Thriller">Thriller</label><br>
+        <input type="checkbox" id="Comedy" name="genre" value="comedy">
+        <label for="Comedy">Comedy</label><br>
+        <input type="checkbox" id="Action" name="genre" value="action">
+        <label for="Action">Action</label><br>
+        <input type="checkbox" id="Superheroes" name="genre" value="supes">
+        <label for="Superheroes">Superheroes</label><br>
+        <input type="checkbox" id="Fantasy" name="genre" value="fantasy">
+        <label for="Fantasy">Fantasy</label><br>
+        <input type="checkbox" id="Animation" name="genre" value="animation">
+        <label for="Animation">Animation</label><br>
+        <input type="checkbox" id="Romance" name="genre" value="romance">
+        <label for="Romance">Romance</label><br><br>
+
+        <button class="form-button">Submit</button>
+        <button class="reset">Reset</button>
+    </div>
+</body>
+</html>
