@@ -12,11 +12,10 @@ A modern and interactive front-end movie booking website where users can explore
 The homepage features a clean layout with a prominent movie banner and cards for featured and trending movies.
 </p>
 
-<p align="center">
-  <img src="./assets/screenshots/Screenshot%202025-04-30%20144934.png" alt="Homepage" width="80%">
-</p>
 
----
+
+![Screenshot 2025-04-30 144934](https://github.com/user-attachments/assets/ea9d76e9-6120-4399-82ac-01d3cc13f7d1)
+
 
 <h2 align="center">🔍 Trending Movies</h2>
 
@@ -24,11 +23,8 @@ The homepage features a clean layout with a prominent movie banner and cards for
 Showcase of the most searched titles right now. Each card displays the title, genre, and rating with visual flair.
 </p>
 
-<p align="center">
-  <img src="./assets/screenshots/Screenshot%202025-04-30%20144947.png" alt="Trending Movies" width="80%">
-</p>
+![Screenshot 2025-04-30 144947](https://github.com/user-attachments/assets/13a45394-2252-4f55-bbfb-3a373c259e8e)
 
----
 
 <h2 align="center">💡 User Preferences Page</h2>
 
@@ -36,11 +32,8 @@ Showcase of the most searched titles right now. Each card displays the title, ge
 Users can request movies they want to watch, suggest food items, upload a poster image, and share general feedback. This form can be linked to a backend for admin insights.
 </p>
 
-<p align="center">
-  <img src="./assets/screenshots/Screenshot%202025-04-30%20145008.png" alt="Preferences Page" width="60%">
-</p>
+![Screenshot 2025-04-30 145008](https://github.com/user-attachments/assets/a72e2f33-308d-4227-b5ef-590cfa3e368f)
 
----
 
 <h2 align="center">📝 Sign-Up Page</h2>
 
@@ -49,11 +42,8 @@ Detailed sign-up form capturing user information including:<br>
 Name, Email, DOB, Gender, Age, Genres, State, and more.
 </p>
 
-<p align="center">
-  <img src="./assets/screenshots/Screenshot%202025-04-30%20145016.png" alt="Sign Up Page" width="60%">
-</p>
+![Screenshot 2025-04-30 145016](https://github.com/user-attachments/assets/a6e18b0a-77e9-4d7f-93a9-e56f360c9bca)
 
----
 
 <h2 align="center">🔐 Sign-In Page</h2>
 
@@ -61,11 +51,8 @@ Name, Email, DOB, Gender, Age, Genres, State, and more.
 Minimal and sleek login form for registered users to access the platform.
 </p>
 
-<p align="center">
-  <img src="./assets/screenshots/Screenshot%202025-04-30%20145023.png" alt="Sign In Page" width="60%">
-</p>
+![Screenshot 2025-04-30 145023](https://github.com/user-attachments/assets/29cc4772-86e3-48d8-8178-2d7a4930ea69)
 
----
 
 <h2 align="center">📁 Project Structure</h2>
 
